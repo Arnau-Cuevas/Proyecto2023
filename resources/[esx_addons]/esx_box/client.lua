@@ -1,0 +1,5 @@
+RegisterNetEvent('esx_box:showNotification')
+AddEventHandler('esx_box:showNotification', function(message)
+    TriggerEvent('esx:showNotification', message)
+end)
+print("lado cliente")
